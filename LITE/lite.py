@@ -1,7 +1,7 @@
 # This version is purly just a one file script with no extra fetures, the simpleist it can be!
 
 import json
-import urllib.request
+import vurllib.request
 import os
 from os import system
 import platform
@@ -15,7 +15,7 @@ print("""
   Please enter your quiz ID
    /
 >.<
-----------------------------
+7400137----------------------------
 """)
 api = 'https://play.kahoot.it/rest/kahoots/'
 usrinput = input(f" Enter ID >> ")
